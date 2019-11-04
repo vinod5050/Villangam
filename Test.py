@@ -1,14 +1,6 @@
-# 3 6
-x = int(input("Enter 1st value :"))
-y = int(input("Enter 2st value :"))
+import sys
+
+x = int(sys.argv[1])
+y = int(sys.argv[2])
 z = x + y
 print(z)
-# vin
-ch = input('Enter char :')
-print(ch[0])
-# vin
-ch1 = input('Enter char :')[0]
-print(ch1)
-# 2 + 5 + 6
-res = eval(input('Enter expression'))
-print(res)
